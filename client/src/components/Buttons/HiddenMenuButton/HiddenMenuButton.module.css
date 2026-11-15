@@ -1,0 +1,19 @@
+.hiddenMenuButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-primary);
+    border-radius: var(--sm);
+    transition: 0.5s ease;
+}
+
+.hiddenMenuButton img {
+    width: var(--lg);
+    height: var(--lg);
+}
+
+.hiddenMenuButton:hover {
+    filter: brightness(0.7);
+}
