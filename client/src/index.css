@@ -1,0 +1,61 @@
+/*** 
+ * This file contains the global styles for the application.
+ * It is imported in the index.js file and applied to the entire application.
+ * You can add your own styles here or import other CSS files as needed.
+ ***/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ /*** VARIABLES ***/
+
+:root {
+
+  /* Colors */
+  --color-primary: #4B9D61;
+  --color-accent-dark: #1A1A1A;
+  --color-bg: #1F1F1F;
+  --color-text: #E6E6E6;
+
+  /* Spacing */
+  --xs: 4px;
+  --sm: 8px;
+  --md: 16px;
+  --lg: 24px;
+  --xl: 32px;
+  --xxl: 48px;
+  --margin: 128px;
+}
+
+/*** GLOBAL STYLES ***/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/*** LAYOUT ***/
+
+.container {
+  display: flex;
+  position: relative;
+}
