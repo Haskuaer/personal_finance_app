@@ -5,6 +5,8 @@
             "@/*": ["src/"],
             "@assets/*": ["scr/assets"],
             "@components/*": ["src/components"],
+            "@contexts/*": ["src/contexts"],
+            "@pages/*": ["src/pages"],
         }
     },
     "include": ["src"]

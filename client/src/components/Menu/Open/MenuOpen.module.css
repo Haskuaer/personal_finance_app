@@ -24,7 +24,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding: var(--xs) var(--sm);
+    padding: var(--sm) var(--md);
     background-color: var(--color-accent-dark2);
     border-radius: var(--sm);
 }
