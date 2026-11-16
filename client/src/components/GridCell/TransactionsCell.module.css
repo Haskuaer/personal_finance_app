@@ -1,0 +1,5 @@
+.cell {
+    padding: var(--xs) var(--md);
+    background-color: var(--color-accent-dark);
+    text-align: center;
+}

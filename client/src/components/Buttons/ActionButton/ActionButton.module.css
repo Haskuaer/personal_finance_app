@@ -1,0 +1,14 @@
+.actionButton {
+    width: var(--lg);
+    height: var(--lg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.actionButton:hover {
+    background-color: var(--color-primary-hover);
+}
