@@ -3,7 +3,7 @@ import { MenuContext } from '@contexts/MenuContext.js'
 import MenuHidden from '@components/Menu/Hidden/MenuHidden.jsx';
 import MenuOpen from '@components/Menu/Open/MenuOpen.jsx'
 import ActionButton from '@components/Buttons/ActionButton/ActionButton.jsx'
-import TransactionsCell from '@components/GridCell/TransactionsCell.jsx'
+import TransactionRow from './components/TransactionRow.jsx'
 import styles from './Transactions.module.css'
 import images from '@assets/icons/index.js'
 
@@ -29,32 +29,14 @@ export default function Transactions() {
                     <ActionButton image={images.plus} alt="plus icon" />
                 </section>
                 <section className={styles.transactionsSection}>
-                    <TransactionsCell text="Date" />
-                    <TransactionsCell text="Subject" />
-                    <TransactionsCell text="Amount" />
-                    <TransactionsCell text="Category" />
-                    <TransactionsCell text="Subcategory" />
-                    <TransactionsCell text="Share" />
-                    <TransactionsCell text="Share%" />
-                    <TransactionsCell text="Debt" />
-                    <TransactionsCell text="Save" />
-                    <TransactionsCell text="Date" />
-                    <TransactionsCell text="Subject" />
-                    <TransactionsCell text="Amount" />
-                    <TransactionsCell text="Category" />
-                    <TransactionsCell text="Subcategory" />
-                    <TransactionsCell text="Share" />
-                    <TransactionsCell text="Share%" />
-                    <TransactionsCell text="Debt" />
-                    <TransactionsCell text="Save" />
+                    <TransactionRow />
+                    <TransactionRow />
+                    <TransactionRow />
+                    <TransactionRow />
+                    <TransactionRow />
+                    <TransactionRow />
                 </section>
             </main>
         </div>
-    )
-    return (
-        <>
-        
-            
-        </>
     )
 }
