@@ -1,4 +1,7 @@
 .hiddenMenu {
+    position: absolute;
+    left: 0;
+    z-index: 1;
     width: 64px;
     height: 100vh;
     display: flex;
