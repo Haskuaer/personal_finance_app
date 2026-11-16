@@ -15,5 +15,5 @@
 }
 
 .hiddenMenuButton:hover {
-    filter: brightness(0.7);
+    background-color: var(--color-primary-hover);
 }

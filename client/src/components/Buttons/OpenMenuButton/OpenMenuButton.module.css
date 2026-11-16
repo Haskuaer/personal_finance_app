@@ -1,0 +1,15 @@
+.openMenuButton {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--sm) var(--md);
+    background-color: var(--color-primary);
+    border-radius: var(--sm);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.openMenuButton:hover {
+    background-color: var(--color-primary-hover);
+}

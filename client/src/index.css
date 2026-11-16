@@ -12,7 +12,9 @@
 
   /* Colors */
   --color-primary: #4B9D61;
+  --color-primary-hover: #377347;
   --color-accent-dark: #1A1A1A;
+  --color-accent-dark2: #141414;
   --color-bg: #1F1F1F;
   --color-text: #E6E6E6;
 
@@ -51,6 +53,11 @@ select {
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*** LAYOUT ***/

@@ -1,0 +1,40 @@
+.openMenu {
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--lg);
+    padding: var(--md) var(--lg);
+    background-color: var(--color-accent-dark);
+    border-top-right-radius: var(--md);
+    border-bottom-right-radius: var(--md);
+}
+
+.sidebarSection {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.searchSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: var(--xs) var(--sm);
+    background-color: var(--color-accent-dark2);
+    border-radius: var(--sm);
+}
+
+.openMenu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--md);
+    padding: var(--xl) var(--md);
+    list-style-type: none;
+}
