@@ -4,6 +4,7 @@ import MenuHidden from '@components/Menu/Hidden/MenuHidden.jsx';
 import MenuOpen from '@components/Menu/Open/MenuOpen.jsx'
 import ActionButton from '@components/Buttons/ActionButton/ActionButton.jsx'
 import TransactionRow from './components/TransactionRow.jsx'
+import TransactionHeader from './components/TransactionHeader.jsx'
 import styles from './Transactions.module.css'
 import images from '@assets/icons/index.js'
 
@@ -29,7 +30,7 @@ export default function Transactions() {
                     <ActionButton image={images.plus} alt="plus icon" />
                 </section>
                 <section className={styles.transactionsSection}>
-                    <TransactionRow />
+                    <TransactionHeader />
                     <TransactionRow />
                     <TransactionRow />
                     <TransactionRow />
