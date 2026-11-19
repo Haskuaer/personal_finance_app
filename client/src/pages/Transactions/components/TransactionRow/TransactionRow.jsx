@@ -1,5 +1,5 @@
 import styles from './TransactionRow.module.css'
-import TransactionCell from './TransactionCell.jsx'
+import TransactionCell from '../TransactionCell/TransactionCell.jsx'
 
 export default function TransactionRow(props) {
     return (

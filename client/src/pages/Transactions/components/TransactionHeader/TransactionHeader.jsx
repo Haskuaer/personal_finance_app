@@ -1,4 +1,4 @@
-import TransactionCell from './TransactionCell.jsx'
+import TransactionCell from '../TransactionCell/TransactionCell.jsx'
 import styles from './TransactionHeader.module.css'
 
 export default function TransactionHeader() {

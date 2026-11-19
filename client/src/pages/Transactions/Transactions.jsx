@@ -3,10 +3,11 @@ import { MenuContext } from '@contexts/MenuContext.js'
 import MenuHidden from '@components/Menu/Hidden/MenuHidden.jsx';
 import MenuOpen from '@components/Menu/Open/MenuOpen.jsx'
 import ActionButton from '@components/Buttons/ActionButton/ActionButton.jsx'
-import TransactionRow from './components/TransactionRow.jsx'
-import TransactionHeader from './components/TransactionHeader.jsx'
+import TransactionComponents from './components/index.js'
 import styles from './Transactions.module.css'
 import images from '@assets/icons/index.js'
+
+const { TransactionHeader, TransactionRow } = TransactionComponents;
 
 export default function Transactions() {
 
@@ -31,11 +32,11 @@ export default function Transactions() {
                 </section>
                 <section className={styles.transactionsSection}>
                     <TransactionHeader />
-                    <TransactionRow />
-                    <TransactionRow />
-                    <TransactionRow />
-                    <TransactionRow />
-                    <TransactionRow />
+                    <TransactionRow date="10.11" subject="Adam" amount="3.00" category="shopping" subcategory="mix" share="YES" sharePercent="50%" debt="YES" save="YES" />
+                    <TransactionRow date="10.11" subject="Adam" amount="3.00" category="shopping" subcategory="mix" share="YES" sharePercent="50%" debt="YES" save="YES" />
+                    <TransactionRow date="10.11" subject="Adam" amount="3.00" category="shopping" subcategory="mix" share="YES" sharePercent="50%" debt="YES" save="YES" />
+                    <TransactionRow date="10.11" subject="Adam" amount="3.00" category="shopping" subcategory="mix" share="YES" sharePercent="50%" debt="YES" save="YES" />
+                    <TransactionRow date="10.11" subject="Adam" amount="3.00" category="shopping" subcategory="mix" share="YES" sharePercent="50%" debt="YES" save="YES" />
                 </section>
             </main>
         </div>
