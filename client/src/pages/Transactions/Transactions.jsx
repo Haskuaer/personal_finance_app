@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { MenuContext } from '@contexts/MenuContext.js'
-import MenuHidden from '@components/Menu/Hidden/MenuHidden.jsx';
-import MenuOpen from '@components/Menu/Open/MenuOpen.jsx'
+// import MenuHidden from '@components/Menu/Hidden/MenuHidden.jsx';
+// import MenuOpen from '@components/Menu/Open/MenuOpen.jsx'
+import Menu from '@components/Menu/Menu.jsx'
 import ActionButton from '@components/Buttons/ActionButton/ActionButton.jsx'
 import TransactionComponents from './components/index.js'
 import styles from './Transactions.module.css'
@@ -20,7 +21,7 @@ export default function Transactions() {
     return (
         <div className="container">
             <MenuContext.Provider value={{ isMenuOpen, setIsMenuOpen }}>
-                {openMenu(isMenuOpen)}
+                <Menu />
             </MenuContext.Provider>
             <main className="main-section">
                 <section className={styles.actionSection}>

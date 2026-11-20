@@ -2,7 +2,7 @@
     import MenuHidden from '@components/Menu/Hidden/MenuHidden.jsx';
     import MenuOpen from '@components/Menu/Open/MenuOpen.jsx'
     import { MenuContext } from '@contexts/MenuContext.js'
-
+    
     export default function Home() {
 
         const [isMenuOpen, setIsMenuOpen] = useState(false)
