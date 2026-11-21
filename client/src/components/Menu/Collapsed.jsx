@@ -1,14 +1,12 @@
-import SidebarButton from '@components/Buttons/SidebarButton/SidebarButton.jsx'
-import HiddenMenuButton from '@components/Buttons/HiddenMenuButton/HiddenMenuButton.jsx'
 import images from '@assets/icons/index.js'
+import Button from '@components/Buttons/Button.jsx'
 
 export default function Collapsed() {
     return(
         <ul>
-            <li><SidebarButton image={images.sidebar} /></li>
-            <li><HiddenMenuButton image={images.home} /></li>
-            <li><HiddenMenuButton image={images.transaction} /></li>
-            <li><HiddenMenuButton image={images.settlements} /></li>
+            <li><Button href="#" icon={images.home} alt="home icon" type="square" /></li>
+            <li><Button href="#" icon={images.transaction} alt="transactions icon" type="square" /></li>
+            <li><Button href="#" icon={images.settlements} alt="settlements icon" type="square" /></li>
         </ul>
     )
 }

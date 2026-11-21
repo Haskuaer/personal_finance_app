@@ -18,7 +18,8 @@ export default function MenuOpen() {
         <nav className={cx('menu', {
             expanded: isMenuOpen,
             collapsed: !isMenuOpen
-            })}>
+        })}>
+            <SidebarButton />
             
             {isMenuOpen ? <Expanded /> : <Collapsed />}
         </nav>

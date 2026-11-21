@@ -11,6 +11,7 @@
     background-color: var(--color-accent-dark);
     border-top-right-radius: var(--md);
     border-bottom-right-radius: var(--md);
+    /* transition: 0.7s ease; */
 }
 
 .menu ul {
@@ -29,9 +30,18 @@
 
 /* HIDDEN */
 
-/* .collapsed {
-    width: 32px;
-} */
+.collapsed {
+    /* width: var(--xl); */
+    padding: var(--sm);
+}
+
+.collapsed ul {
+    gap: var(--sm);
+}
+
+.collapsed ul li {
+    width: auto;
+}
 
 
 /* OPEN */
