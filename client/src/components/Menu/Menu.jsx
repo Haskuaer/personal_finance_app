@@ -19,7 +19,9 @@ export default function MenuOpen() {
             expanded: isMenuOpen,
             collapsed: !isMenuOpen
         })}>
-            <SidebarButton />
+            <section className={styles.sidebarSection}>
+                <SidebarButton />
+            </section>
             
             {isMenuOpen ? <Expanded /> : <Collapsed />}
         </nav>
