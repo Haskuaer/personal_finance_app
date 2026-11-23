@@ -15,8 +15,9 @@
   --color-primary-hover: #377347;
   --color-accent-dark: #1A1A1A;
   --color-accent-dark2: #141414;
+  --color-accent-light: #e6e6e6ad;
   --color-bg: #1F1F1F;
-  --color-text: #E6E6E6;
+  --color-text: #e6e6e6;
 
   /* Spacing */
   --xs: 4px;
@@ -78,5 +79,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: var(--sm);
   margin: var(--margin);
 }
