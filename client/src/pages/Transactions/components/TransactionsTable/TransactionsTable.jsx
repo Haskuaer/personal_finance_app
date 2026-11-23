@@ -4,7 +4,7 @@ import TransactionsRow from './TransactionsRow.jsx'
 
 export default function TransactionsTable() {
     return(
-        <table>
+        <table className={styles.transactionsTable}>
             <TransactionsHeader />
             <TransactionsRow />
             <TransactionsRow />
