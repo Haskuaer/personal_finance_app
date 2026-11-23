@@ -4,15 +4,19 @@
 }
 
 .transactionsTable thead {
-    background-color: var(--color-accent-dark2);
+    background-color: var(--color-primary-hover);
+    font-weight: bold;
+}
+
+.transactionsTable tr {
+    border: 1px solid var(--color-accent-light);
 }
 
 .transactionsTable tr:nth-child(odd){
-    background-color: var(--color-accent-dark);
+    background-color: var(--color-accent-dark2);
 }
 
 .transactionsTable tr td {
-    padding: var(--xs) var(--lg);
+    padding: var(--sm) var(--lg);
     text-align: center;
-    border: 1px solid var(--color-text);
 }
