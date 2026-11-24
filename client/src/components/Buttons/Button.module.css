@@ -1,6 +1,6 @@
 /* PRIMARY */
 
-.primary {
+.button {
     width: 100%;
     display: flex;
     align-items: center;
@@ -11,17 +11,35 @@
     transition: 0.5s ease;
 }
 
-.primary:hover {
-    background-color: var(--color-primary);
-}
-
-.primary img {
+.button img {
     width: var(--md);
     height: var(--md);
 }
+
+.primary {
+    background-color: var(--color-primary);
+}
+
+.primary:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.secondary {
+    background-color: inherit;
+}
+
+.secondary:hover {
+    background-color: var(--color-primary);
+}
+
 
 /* SQUARE */
 
 .square {
     padding: var(--xs);
+}
+
+.circle {
+    padding: var(--xs);
+    border-radius: 50%;    
 }

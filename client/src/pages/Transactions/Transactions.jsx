@@ -4,12 +4,12 @@ import { MenuContext } from '@contexts/MenuContext.js'
 // import MenuOpen from '@components/Menu/Open/MenuOpen.jsx'
 import Menu from '@components/Menu/Menu.jsx'
 import ActionButton from '@components/Buttons/ActionButton/ActionButton.jsx'
-import TransactionComponents from './components/index.js'
+// import TransactionComponents from './components/index.js'
 import styles from './Transactions.module.css'
 import images from '@assets/icons/index.js'
 import TransactionsTable from './components/TransactionsTable/TransactionsTable.jsx'
 
-const { TransactionHeader, TransactionRow } = TransactionComponents;
+// const { TransactionHeader, TransactionRow } = TransactionComponents;
 
 export default function Transactions() {
 

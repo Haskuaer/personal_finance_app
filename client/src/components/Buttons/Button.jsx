@@ -9,7 +9,7 @@ export default function Button(props) {
 
     return (
         <a href={href}
-            className={cx('primary', type)} >
+            className={cx('button', type)} >
             { icon && <img src={icon} alt={alt ?? ''} /> }
             {text}
         </a>

@@ -1,7 +1,0 @@
-.transactionsHeader {
-    width: 100%;
-    height: var(--xl);
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    gap: var(--md);
-}
