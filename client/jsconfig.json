@@ -2,11 +2,13 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "@/*": ["src/"],
-            "@assets/*": ["scr/assets"],
-            "@components/*": ["src/components"],
-            "@contexts/*": ["src/contexts"],
-            "@pages/*": ["src/pages"],
+            "@/*": ["src/*"],
+            "@assets/*": ["src/assets/*"],
+            "@components/*": ["src/components/*"],
+            "@contexts/*": ["src/contexts/*"],
+            "@layouts/*": ["src/layouts/*"],
+            "@pages/*": ["src/pages/*"],
+            "@pages": ["src/pages/index.js"]
         }
     },
     "include": ["src"]
