@@ -30,7 +30,6 @@
 /* HIDDEN */
 
 .collapsed {
-    /* width: var(--xl); */
     padding: var(--md) var(--sm);
 }
 
@@ -41,7 +40,6 @@
 .collapsed ul li {
     width: auto;
 }
-
 
 /* OPEN */
 

@@ -9,9 +9,9 @@ export default function Expanded() {
                 <img src={images.search} alt="search icon"></img>
             </section>
             <ul>
-                <li><Button href="#" text="Home" icon={images.home} alt="home icon" /></li>
-                <li><Button href="#" text="Transactions" icon={images.transaction} alt="transactions icon" /></li>
-                <li><Button href="#" text="Settlements" icon={images.settlements} alt="settlements icon" /></li>
+                <li><Button path="/" text="Home" icon={images.home} alt="home icon" /></li>
+                <li><Button path="/transactions" text="Transactions" icon={images.transaction} alt="transactions icon" /></li>
+                <li><Button path="/settlements" text="Settlements" icon={images.settlements} alt="settlements icon" /></li>
             </ul>
         </>
     )
