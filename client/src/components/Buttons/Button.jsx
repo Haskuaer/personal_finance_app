@@ -10,12 +10,6 @@ export default function Button(props) {
     const { path, text, icon, alt, type } = props
 
     return (
-        // <a href={href}
-        //     className={cx('primary', type)} >
-        //     { icon && <img src={icon} alt={alt ?? ''} /> }
-        //     {text}
-        // </a>
-
         <NavLink 
             to={path}
             className={({ isActive }) => cx('primary', type, {
