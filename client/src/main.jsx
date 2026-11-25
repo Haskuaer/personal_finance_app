@@ -1,11 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Router, RouterProvider } from 'react-router-dom'
+
+import router from './router';
 import './index.css'
-import Home from '@pages/Home.jsx';
-import Transactions from '@pages/Transactions/Transactions.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Transactions />
-  </StrictMode>,
+    <RouterProvider router={router} />
+  </StrictMode>
 )
